@@ -29,3 +29,7 @@ We store data in the following tables:
 4. The `games` table stores the information listed above about each game, except for bingos.
 5. The `bingos` table stores each bingo played, the game and player, and the per-bingo information listed above.
 6. The `lexica` table lists all lexica, e.g., TWL98, the family they belong to, NWL or CSW, if applicable (VOLOST is neither), and dates between which the lexicon was in effect.
+
+Scrabble is a registered trademark of [Hasbro, Inc.](https://shop.hasbro.com/scrabble) in the USA and Canada, and of [Mattel Inc.](https://shopping.mattel.com/en-gb/collections/scrabble) elsewhere.
+
+This work was originated by members of the Bridgewater Scrabble Club, which is also [NASPA Club #580](https://www.bridgewaterscrabble.org). The Club is solely repsonsible for, and is the sole owner of, this Github repository and its contents. It is neither affiliated with, nor endorsed by Hasbro, Mattel, [NASPA Games](https://scrabbleplayers.org) or any other sanctioning body for competitive Scrabble play.
