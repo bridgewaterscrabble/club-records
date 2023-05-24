@@ -8,7 +8,7 @@ We have three types of game records to consider:
 1. Data through February of 2023 consists of each game's:
    * Date
    * Winner, their score, and their bingos (bonuses);
-   * Loser, their scores, and their bingos;
+   * Loser, their score, and their bingos;
    * The lexicon used if not the TWL/NWL in effect at the time;
    * For each bingo, its score and whether it was acceptable.
 2. Beginning in March, 2023, the following additional information is stored:
