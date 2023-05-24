@@ -23,12 +23,12 @@ We have three types of game records to consider:
 Each phoney bingo is checked as to whether it was acceptable in its CSW or NWL counterpart, and whether it was added later. Acceptable bingos are checked to see if the word was subsequently removed from the lexicon, e.g., the recent removal of slurs.
 
 We store data in the following tables:
-1. In the database, each player is referred to by a unique handle. The `players` table stores that handle along with the player's name and contact information.
-2. The `sessions` table stores every club session's date, whether it was virtual or live, and the location (for live sessions) or web site (e.g., Woogles) forvirtual sessions.
+1. In the database, each player is referred to by a unique handle. The `players` table stores that handle along with the player's name, Woogles ID, and other contact information.
+2. The `sessions` table stores every club session's date, whether it was virtual or live, and the location (for live sessions) or web site (e.g., Woogles) for virtual sessions.
 3. The `words` table contains the union of all the word lists mentioned above, and for each word, which word lists it belongs to.
 4. The `games` table stores the information listed above about each game, except for bingos.
 5. The `bingos` table stores each bingo played, the game and player, and the per-bingo information listed above.
-6. The `lexica` table lists all lexica, e.g., TWL98, the family they belong to, NWL or CSW, if applicable (VOLOST is neither), and dates between which the lexicon was in effect.
+6. The `lexica` table lists all lexica, e.g., NWL20, the family they belong to, NWL or CSW, if applicable (VOLOST is neither), and dates between which the lexicon was in effect.
 
 Scrabble is a registered trademark of [Hasbro, Inc.](https://shop.hasbro.com/scrabble) in the USA and Canada, and of [Mattel Inc.](https://shopping.mattel.com/en-gb/collections/scrabble) elsewhere.
 
