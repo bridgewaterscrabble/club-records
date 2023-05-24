@@ -28,3 +28,4 @@ We store data in the following tables:
 3. The `words` table contains the union of all the word lists mentioned above, and for each word, which word lists it belongs to.
 4. The `games` table stores the information listed above about each game, except for bingos.
 5. The `bingos` table stores each bingo played, the game and player, and the per-bingo information listed above.
+6. The `lexica` table lists all lexica, e.g., TWL98, the family they belong to, NWL or CSW, if applicable (VOLOST is neither), and dates between which the lexicon was in effect.
