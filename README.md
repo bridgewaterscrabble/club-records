@@ -5,6 +5,7 @@ The early goal is to make CLI-based data entry as simple as possible. We have ov
 
 We have three types of game records to consider:
 * Data through February of 2023 consists of each game's:
+
 ** Date;
 ** Winner, their score, and their bingos (bonuses);
 ** Loser, their score, and their bingos;
@@ -12,10 +13,12 @@ We have three types of game records to consider:
 ** For each bingo, its score and whether it was acceptable.
 
 * Beginning in March, 2023, the following additional information is stored:
+
 ** Which player went first;
 ** The blanks that were played.
 
 * Moving forward, we also want to store:
+
 ** Interesting non-bingo plays;
 ** Challenges and their results;
 ** Whether bingos were naturals or played with blanks;
