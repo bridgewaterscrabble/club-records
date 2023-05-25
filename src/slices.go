@@ -3,7 +3,7 @@
 // license that can be found in the LICENSE file.
 
 // Package slices defines various functions useful with slices of any type.
-package slices
+package main // for local use
 
 import (
 	"unsafe"

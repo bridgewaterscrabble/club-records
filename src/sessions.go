@@ -11,7 +11,7 @@ import (
 	"log"
 	"os"
 	"path"
-	"sessions/slices"
+	//"slices"
 	"strconv"
 	"strings"
 	"time"
@@ -173,7 +173,7 @@ func main() {
 		/////
 		sessionFilename := path.Base(fpath) // yymmdd.{csv,wsv}
 		sessionDate := strings.TrimSuffix(sessionFilename, path.Ext(sessionFilename)) // yymmdd
-		if slices.Contains(dates, sessionDate) {
+		if Contains(dates, sessionDate) {
 			log.Printf("Session %s already recorded", sessionDate)
 			//return nil
 		} else {
@@ -384,19 +384,19 @@ func main() {
 				if (score2 > score1) {
 					log.Fatalln("Loser has higher score than winner")
 				}
-				if !slices.Contains(handles, handle1) {
+				if !Contains(handles, handle1) {
 					log.Fatalf("Unknown winner: %s", handle1)
 				}
-				if !slices.Contains(handles, handle2) {
+				if !Contains(handles, handle2) {
 					log.Fatalf("Unknown loser: %s", handle2)
 				}
 			} else {
 				// Handle 1 played first; calculate winner or tie
 				log.Printf("First: %s %d %s; Second: %s %d %s\n", handle1, score1, bingos1, handle2, score2, bingos2)
-				if !slices.Contains(handles, handle1) {
+				if !Contains(handles, handle1) {
 					log.Fatalf("Unknown handle 1: %s", handle1)
 				}
-				if !slices.Contains(handles, handle2) {
+				if !Contains(handles, handle2) {
 					log.Fatalf("Unknown handle 2: %s", handle2)
 				}
 			} // end of game analysis
