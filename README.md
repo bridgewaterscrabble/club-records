@@ -4,22 +4,22 @@ This repository contains the PostgreSQL database schema and related tools and do
 The early goal is to make CLI-based data entry as simple as possible. We have over 20 years of handwritten records to transcribe, along with new data from club sessions going forward.
 
 We have three types of game records to consider:
-- Data through February of 2023 consists of each game's:
--- Date;
--- Winner, their score, and their bingos (bonuses);
--- Loser, their score, and their bingos;
--- The lexicon used if not the TWL/NWL in effect at the time;
--- For each bingo, its score and whether it was acceptable.
+* Data through February of 2023 consists of each game's:
+ * Date;
+ * Winner, their score, and their bingos (bonuses);
+ * Loser, their score, and their bingos;
+ * The lexicon used if not the TWL/NWL in effect at the time;
+ * For each bingo, its score and whether it was acceptable.
 
-- Beginning in March, 2023, the following additional information is stored:
--- Which player went first;
--- The blanks that were played.
+* Beginning in March, 2023, the following additional information is stored:
+ * Which player went first;
+ * The blanks that were played.
 
-- Moving forward, we also want to store:
--- Interesting non-bingo plays;
--- Challenges and their results;
--- Whether bingos were naturals or played with blanks;
--- Triple-triples (nine-timers).
+* Moving forward, we also want to store:
+ * Interesting non-bingo plays;
+ * Challenges and their results;
+ * Whether bingos were naturals or played with blanks;
+ * Triple-triples (nine-timers).
 
 Each bingo is checked as to whether it was acceptable in its CSW or NWL counterpart, and whether it was added later. Acceptable bingos are checked to see if the word was subsequently removed from the lexicon, e.g., the recent removal of slurs.
 
