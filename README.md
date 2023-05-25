@@ -33,4 +33,4 @@ We store data in the following tables:
 
 Scrabble is a registered trademark of <a href="https://shop.hasbro.com/scrabble">Hasbro, Inc.</a> in the USA and Canada, and of <a href="https://shopping.mattel.com/en-gb/collections/scrabble">Mattel Inc.</a> elsewhere.
 
-This work was originated by members of the Bridgewater Scrabble Club, which is also <a href="https://www.bridgewaterscrabble.org">NASPA Club #580</a>. The Club is solely repsonsible for, and is the sole owner of, this Github repository and its contents. It is neither affiliated with, nor endorsed by Hasbro, Mattel, <a href=\"https://scrabbleplayers.org">NASPA Games</a> or any other sanctioning body for competitive Scrabble play.
+This work was originated by members of the Bridgewater Scrabble Club, which is also <a href="https://www.bridgewaterscrabble.org">NASPA Club #580</a>. The Club is solely repsonsible for, and is the sole owner of, this Github repository and its contents. It is neither affiliated with, nor endorsed by Hasbro, Mattel, <a href="https://scrabbleplayers.org">NASPA Games</a> or any other sanctioning body for competitive Scrabble play.
