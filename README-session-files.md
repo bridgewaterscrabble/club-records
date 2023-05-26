@@ -11,7 +11,7 @@ There are ten pieces of data for each game: The two players' handles, scores, an
 Handles are short lower-case strings, usually the player's first name. When a handle is already in use, a new player's handle will have a suffix disabmiguating it. For example, the handle of the founder of our club is <tt>scott</tt>. If another Scott starts playing, e.g., Scott Jones, their handle might be <tt>scott-j</tt>.
 
 ## Lexica
-The default lexicon is the North American lexicon in effect on the date of the game. If a different lexicon is used, it may be specified by family, e.g., <tt>csw</tt> for the CSW lexicon in effect that day, or as a specific lexicon, one of:
+The default lexicon is the North American lexicon in effect on the date of the game; it may be explicitly specified as <tt>nwl</tt> or <tt>$</tt>. If the Collns lexicon is used, it may be specified as <tt>csw</tt> or <tt>#</tt>. A specific lexicon may also be used; the available lexica are:
 
 <tt>twl98 owl1 owl2 owl2_1 twl14 twl16 nwl18 nwl20 csw07 csw12 csw15 csw19 csw21 volost</tt>
 
@@ -53,10 +53,12 @@ Each bingo is specified in its own field, consisting of the word in lower case, 
   <tr><td><tt>#</tt><td>The word is unacceptable but is acceptable in CSW (NWL games only).
   <tr><td><tt>$</tt><td>The word is unacceptable but is acceptable in NWL (CSW games only).
   <tr><td><tt>+</tt><td>The word was unacceptable at the time but has since been added.
-  <tr><td><tt>-</tt><td>The word was acceptable at the time but has since been removed.
+  <tr><td><tt>_</tt><td>The word was acceptable at the time but has since been removed. (A dash is usually used for this but that would cause an ambiguity between bingos and handles, which can also contain dashes.)
   <tr><td><tt>!</tt><td>The word is not a bingo, but an otherwise interesting high-scoring acceptable play.
   <tr><td><tt>^</tt><td>The word is a triple-triple (nine-timer).
 </table>
+
+(Q-bombs etc. are not interesting.)
 
 There may be more than one of these characters, as long as they don't conflict, e.g., <tt>#</tt> and <tt>$</tt> and are not redundant, e.g., <tt>.</tt> and <tt>/</tt>.
 
